@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TIGER MARTIAL ARTS</title>
+    <meta name="description" content="Tiger Martial Arts Academy - Dubai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Sentra Template and Custom Styles -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/light-box.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <style>
+        body {font-family: 'Open Sans', Arial, sans-serif;}
+        /* Hero Section */
+        #hero {
+            background: url("https://www.japan-academy.in/blog/wp-content/uploads/2022/06/Martial-Arts-Types-and-Forms-870x600.jpg");
+            min-height: 70vh; display: flex; align-items: center;
+            justify-content: center; background-size: cover; 
+        }
+        #hero .herobox {
+            background: rgba(255, 243, 243, 0.55); padding: 60px 30px; border-radius: 10px; margin-left: 5vw; max-width: 500px;
+        }
+        #hero h1, #hero p {color: #000000;}
+        #hero h1 {font-size: 2.5rem; font-weight: bold; margin-bottom: 20px;}
+        #hero p {font-size: 1.2rem; margin-bottom: 25px;}
+        #hero a {
+            background: #dc1828; color: #fff; padding: 15px 35px; border-radius: 30px;
+            text-decoration: none; font-size: 1.1rem; font-weight: 600;
+            transition: background 0.2s;
+        }
+        #hero a:hover {background: #171717;}
+        /* Section headings */
+        .section-heading h1 {font-size: 2rem; font-weight: 700;}
+        .section-heading em {color: #161414;}
+        /* Schedule Table */
+        #schedule table {width:100%; max-width:700px; margin:auto; border-collapse:collapse;}
+        #schedule th, #schedule td {padding:10px; border-bottom: 1px solid #ddd;}
+        #schedule thead {background:#222; color:#fff;}
+        /* Prices Section */
+        #prices .section-content {
+            display:flex; flex-wrap:wrap; justify-content:center; gap:30px;
+            max-width:1100px; margin:auto; padding:30px 0;
+        }
+        #prices .section-content > div {
+            background:#d92626; padding:30px; border-radius:10px; min-width:220px; box-shadow:0 2px 6px #ccc;
+            margin-bottom: 20px;
+        }
+        #prices h3 {margin-top:0;}
+        #prices p {font-size:2em; color:#b42d2d; font-weight:bold; margin: 10px 0;}
+        #prices ul {padding-left: 18px;}
+        /* Navigation */
+        nav ul {list-style: none; padding: 0; margin: 0; display: flex; gap: 20px;}
+        nav li {display: inline;}
+        nav a {
+            color: #ba2727; text-decoration: none; font-weight: 600; padding: 10px 20px;
+            border-radius: 4px; transition: background 0.2s, color 0.2s;
+        }
+        nav a:hover, nav a.active {background: #ea1414; color: #050404;}
+        .carousel__slides {
+  display: flex;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.carousel__slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+  display: none;
+}
+
+input#slide-1:checked ~ .carousel__slides li:nth-child(1),
+input#slide-2:checked ~ .carousel__slides li:nth-child(2),
+input#slide-3:checked ~ .carousel__slides li:nth-child(3),
+input#slide-4:checked ~ .carousel__slides li:nth-child(4),
+input#slide-5:checked ~ .carousel__slides li:nth-child(5),
+input#slide-6:checked ~ .carousel__slides li:nth-child(6) {
+  display: block;
+}
+
+.carousel__thumbnails {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1em 0 0;
+  margin: 0;
+}
+
+.carousel__thumbnails img {
+  height: 60px;
+  cursor: pointer;
+  margin: 0 5px;
+  border: 2px solid transparent;
+}
+
+.carousel__thumbnails label:hover img,
+.carousel__thumbnails label:focus img {
+  border-color: #444;
+}
+
+        /* Responsive */
+        @media (max-width: 800px) {
+            #hero {min-height: 40vh;}
+            #hero .herobox {padding: 30px 10px; margin-left: 0;}
+            #prices .section-content {flex-direction: column; align-items: center;}
+        }
+        @media (max-width: 600px) {
+            nav ul {flex-direction: column; gap: 5px;}
+            #schedule table, #schedule th, #schedule td {font-size: 0.95em;}
+        }
+        /* Carousel fix for margin */
+        .carousel { margin-left: 0 !important; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav style="background:#000000; box-shadow:0 2px 6px #fff6f6; padding: 12px 0; position:sticky; top:0; z-index:100;">
+        <div style="max-width:1100px; margin:auto; display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-weight:bold; font-size:1.4em; color:#000000;">TIGER MARTIAL ARTS</span>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="index.html">Prices</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="index.html">Collage</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="herobox">
+        <h1>TIGER MARTIAL ARTS</h1>
+        <p>Empower Your Body &amp; Mind. Join our world-class martial arts academy today!</p>
+        <a href="#contact">Book a Free Trial</a>
+      </div>
+    </section>
+<!-- Instructors Section -->
+<meta name="viewport" content="width=870, initial-scale=1.0">
+    <title>Our Instructors</title>
+    <link rel="stylesheet" href="instructors.css">
+</head>
+<body>
+    <section class="instructors-hero">
+        <h1>Meet Our Instructors</h1>
+    </section>
+    <section class="instructors-list">
+        <div class="instructor-card">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS690rhYTN43mpQSUPzT_yqcPu0PxGrgJcmkA&s" alt="Instructor" class="small-instructor-img">
+            <h2>Sensei John Doe</h2>
+            <p>Black Belt, 5th Dan<br>Years of Experience: 15<br>Specialty: Karate, Self-Defense</p>
+        </div>
+        <div class="instructor-card">
+            <img src="https://www.fighters-inc.com/cdn/shop/products/3742.jpg?v=1662574186&width=460" alt="Instructor 2">
+            <h2>Master Jane Smith</h2>
+            <p>Black Belt, 4th Dan<br>Years of Experience: 12<br>Specialty: Taekwondo, Fitness Training</p>
+        </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3604.047019395029!2d55.1619735!3d25.1041612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!4m12!1m3!2m2!1d55.1622417!2d25.1067989!1m6!1m2!1s0x3e5f6b0726740705%3A0xa26cd6b7920d800e!2sRegent+Middle+East%2C+G10+-+G18+-+Block+4+-+Al+Sufouh+-+Dubai+Knowledge+Park+-+Dubai!2m2!1d55.1645484!2d25.1041564!3e0!5e0!3m2!1sen!2sus!4v1716980000000!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="contact-content">
+            <div class="section-heading">
+                <h1>Contact<br><em>Details</em></h1>
+                <p>Contact details are the essential pieces of information that allow people to reach you or your organization.</p>
+            </div>
+            <div class="section-content">
+                <form id="contact-form" action="#" method="post">
+                    <div class="row">
+                        <div class="col-md-4">
+                          <fieldset>
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                          <fieldset>
+                            <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                          </fieldset>
+                        </div>
+                         <div class="col-md-4">
+                          <fieldset>
+                            <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                          <fieldset>
+                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                          </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                          <fieldset>
+                            <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                          </fieldset>
+                        </div>
+                    </div>
+                    <div id="form-message" style="margin-top: 15px; color: green; font-weight: bold;"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="text-align:center; background:#222; color:#fff; padding:22px 0; margin-top:50px;">
+        &copy; 2025 TIGER MARTIAL ARTS | Dubai
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Contact form feedback
+        document.getElementById('contact-form').addEventListener('submit', function(e){
+            e.preventDefault();
+            document.getElementById('form-message').textContent = "Thank you for contacting us! We'll get back to you soon.";
+            this.reset();
+        });
+
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            if (st > lastScrollTop && st > navbarHeight){
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+            lastScrollTop = st;
+        }
+    </script>
+</body>
+</html>
